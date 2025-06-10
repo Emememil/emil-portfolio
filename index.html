@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emil - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Emil</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h2>Hi, I'm <strong>Emil</strong></h2>
+                <p>A passionate **Front-End Web Developer** building modern and engaging web experiences.</p>
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Get in Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/400x400?text=Emil" alt="Emil - Profile Picture">
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="about" class="section-container">
+            <h2>About Me</h2>
+            <p>I'm a final semester BCA student passionate about front-end web development. I enjoy building small, useful tools with HTML, CSS, and JavaScript. Actively improving my skills through hands-on projects and looking for opportunities to contribute to real-world web products while learning in a team environment.</p>
+            <p>My journey in technology is driven by a constant desire to learn and adapt to new challenges, always striving for excellence in every project.</p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="skills" class="section-container">
+            <h2>Technical Skills</h2>
+            <div class="skills-list">
+                <h3>Languages & Tools:</h3>
+                <p>HTML5, CSS3, JavaScript, Python (Basics)</p>
+                <h3>Front-End Concepts:</h3>
+                <p>DOM Manipulation, Event Handling, Responsive Design</p>
+                <h3>Development Tools:</h3>
+                <p>Git & GitHub, Visual Studio Code</p>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="projects" class="section-container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Car Mileage Tracker</h3>
+                    <p>Calculates mileage per trip using odometer and fuel input. Tracks each trip’s distance, fuel usage, and mileage. Includes trip history and stats like average mileage and total distance.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#" class="btn" target="_blank">Live Demo</a> <a href="#" class="btn secondary" target="_blank">GitHub Repo</a> </div>
+
+                <div class="project-card">
+                    <h3>Expense Splitter</h3>
+                    <p>Add people, record shared expenses, and split costs evenly. Displays a clear summary of who owes whom with a clean UI.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#" class="btn" target="_blank">Live Demo</a> <a href="#" class="btn secondary" target="_blank">GitHub Repo</a> </div>
+
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>Real-time weather app using the OpenWeatherMap API. Displays temperature, condition, and weather icon for any searched city.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript (Fetch API)</p>
+                    <a href="#" class="btn" target="_blank">Live Demo</a> <a href="#" class="btn secondary" target="_blank">GitHub Repo</a> </div>
+
+                </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="contact" class="section-container">
+            <h2>Get in Touch</h2>
+            <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <p class="contact-info">
+                📞 <a href="tel:+919061161832">9061161832</a><br>
+                📧 <a href="mailto:emilwilliam66@gmail.com">emilwilliam66@gmail.com</a><br>
+                💻 GitHub: <a href="https://github.com/Emememil" target="_blank">https://github.com/Emememil</a><br> 🔗 LinkedIn: <a href="https://www.linkedin.com/in/emil-w" target="_blank">https://www.linkedin.com/in/emil-w</a> </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Emil. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
