@@ -78,7 +78,7 @@ Email: emilwilliam66@gmail.com
 
 GitHub: https://github.com/Emememil
 
-LinkedIn: https://www.linkedin.com/in/emil-w
+LinkedIn: https://www.linkedin.com/in/emil-w-/
 
 © License
 
